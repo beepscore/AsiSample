@@ -120,7 +120,6 @@
 		B55252B211D22E2200F9B170 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B55252B311D22E2200F9B170 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B558B58911C7F637009B4627 /* iPhoneInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iPhoneInfo.plist; path = "iPhone Sample/iPhoneInfo.plist"; sourceTree = "<group>"; };
-		B558B58B11C7F63E009B4627 /* iPadInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iPadInfo.plist; path = "iPhone Sample/iPadInfo.plist"; sourceTree = "<group>"; };
 		B55B60450F765A320064029C /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
 		B55B60460F765A320064029C /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
 		B55B60470F765A320064029C /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
@@ -163,14 +162,11 @@
 		B576D52411C7CEC00059B815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B576D52C11C7CEFA0059B815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B576D53D11C7CF350059B815 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
-		B576D76311C7F4D40059B815 /* iPadMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iPadMainWindow.xib; path = "iPhone Sample/Resources/iPadMainWindow.xib"; sourceTree = "<group>"; };
 		B576D76511C7F4D90059B815 /* iPhoneMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iPhoneMainWindow.xib; path = "iPhone Sample/Resources/iPhoneMainWindow.xib"; sourceTree = "<group>"; };
 		B5873FF310FF2904001E145F /* ASICloudFilesRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASICloudFilesRequestTests.m; sourceTree = "<group>"; };
 		B5873FF410FF2904001E145F /* ASICloudFilesRequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesRequestTests.h; sourceTree = "<group>"; };
 		B59A87C0103EC6F200300252 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		B59A87C1103EC6F200300252 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
-		B5BD2AF811CA541100D7C426 /* iPadSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadSampleAppDelegate.h; path = "iPhone Sample/iPadSampleAppDelegate.h"; sourceTree = "<group>"; };
-		B5BD2AF911CA541100D7C426 /* iPadSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadSampleAppDelegate.m; path = "iPhone Sample/iPadSampleAppDelegate.m"; sourceTree = "<group>"; };
 		B5BD2AFB11CA542000D7C426 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailCell.h; path = "iPhone Sample/DetailCell.h"; sourceTree = "<group>"; };
 		B5BD2AFC11CA542000D7C426 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailCell.m; path = "iPhone Sample/DetailCell.m"; sourceTree = "<group>"; };
 		B5BD2AFD11CA542000D7C426 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = "iPhone Sample/InfoCell.h"; sourceTree = "<group>"; };
@@ -299,8 +295,6 @@
 				B55B606C0F765A930064029C /* UploadViewController.m */,
 				B55B606E0F765A930064029C /* iPhoneSampleAppDelegate.h */,
 				B55B606B0F765A930064029C /* iPhoneSampleAppDelegate.m */,
-				B5BD2AF811CA541100D7C426 /* iPadSampleAppDelegate.h */,
-				B5BD2AF911CA541100D7C426 /* iPadSampleAppDelegate.m */,
 				B55B605F0F765A750064029C /* iPhone_Prefix.pch */,
 				B55B60600F765A750064029C /* main.m */,
 				B52329A911CA3380006C6E5A /* UI helpers */,
@@ -313,9 +307,7 @@
 			children = (
 				B52325AC11CA05A8006C6E5A /* info.png */,
 				B558B58911C7F637009B4627 /* iPhoneInfo.plist */,
-				B558B58B11C7F63E009B4627 /* iPadInfo.plist */,
 				B576D76511C7F4D90059B815 /* iPhoneMainWindow.xib */,
-				B576D76311C7F4D40059B815 /* iPadMainWindow.xib */,
 				B523254111CA01F1006C6E5A /* Sample.xib */,
 				B50C1847121C27510055FCAB /* client.p12 */,
 				B56529A2101C8EDA000499CF /* iphone-tests-icon.png */,
