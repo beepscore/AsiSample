@@ -173,8 +173,6 @@
 		B5BD2AFE11CA542000D7C426 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "iPhone Sample/InfoCell.m"; sourceTree = "<group>"; };
 		B5BD2AFF11CA542000D7C426 /* ToggleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToggleCell.h; path = "iPhone Sample/ToggleCell.h"; sourceTree = "<group>"; };
 		B5BD2B0011CA542000D7C426 /* ToggleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToggleCell.m; path = "iPhone Sample/ToggleCell.m"; sourceTree = "<group>"; };
-		B5BD2B0711CA542700D7C426 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "iPhone Sample/RootViewController.h"; sourceTree = "<group>"; };
-		B5BD2B0811CA542700D7C426 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = "iPhone Sample/RootViewController.m"; sourceTree = "<group>"; };
 		B5BD2B0911CA542700D7C426 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleViewController.h; path = "iPhone Sample/SampleViewController.h"; sourceTree = "<group>"; };
 		B5BD2B0A11CA542700D7C426 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleViewController.m; path = "iPhone Sample/SampleViewController.m"; sourceTree = "<group>"; };
 		B5C6663C100A82D7004F3C96 /* ASIS3RequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3RequestTests.h; sourceTree = "<group>"; };
@@ -333,8 +331,6 @@
 				B5BD2AFE11CA542000D7C426 /* InfoCell.m */,
 				B5BD2AFF11CA542000D7C426 /* ToggleCell.h */,
 				B5BD2B0011CA542000D7C426 /* ToggleCell.m */,
-				B5BD2B0711CA542700D7C426 /* RootViewController.h */,
-				B5BD2B0811CA542700D7C426 /* RootViewController.m */,
 				B5BD2B0911CA542700D7C426 /* SampleViewController.h */,
 				B5BD2B0A11CA542700D7C426 /* SampleViewController.m */,
 			);
