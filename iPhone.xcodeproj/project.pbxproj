@@ -98,7 +98,7 @@
 		B5254FF81025F9BF00CF7BC4 /* ProxyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyTests.h; sourceTree = "<group>"; };
 		B52D4A2D10DA4ED5008E8365 /* PerformanceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTests.h; sourceTree = "<group>"; };
 		B52D4A2E10DA4ED5008E8365 /* PerformanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTests.m; sourceTree = "<group>"; };
-		B54043751151538A00D8BE63 /* libGHUnitIPhone3_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGHUnitIPhone3_0.a; path = "External/GHUnit/Project-IPhone/build/CombinedDebug3_0/libGHUnitIPhone3_0.a"; sourceTree = SOURCE_ROOT; };
+		B54043751151538A00D8BE63 /* libGHUnitIPhone3_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGHUnitIPhone3_0.a; path = "External/GHUnit/Project-IPhone/build/CombinedDebug3_0/libGHUnitIPhone3_0.a"; sourceTree = "<group>"; };
 		B54043A11151542C00D8BE63 /* GHAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHAsyncTestCase.h; path = "External/GHUnit/Project-IPhone/build/Debug-iphonesimulator/GHAsyncTestCase.h"; sourceTree = SOURCE_ROOT; };
 		B54043A21151542C00D8BE63 /* GHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHTest.h; path = "External/GHUnit/Project-IPhone/build/Debug-iphonesimulator/GHTest.h"; sourceTree = SOURCE_ROOT; };
 		B54043A31151542C00D8BE63 /* GHTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHTestCase.h; path = "External/GHUnit/Project-IPhone/build/Debug-iphonesimulator/GHTestCase.h"; sourceTree = SOURCE_ROOT; };
@@ -253,15 +253,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				B54043751151538A00D8BE63 /* libGHUnitIPhone3_0.a */,
-				B576D4C011C7CC970059B815 /* CFNetwork.framework */,
-				B576D4D011C7CCBC0059B815 /* CoreGraphics.framework */,
-				B576D51311C7CE6D0059B815 /* Foundation.framework */,
-				B576D53D11C7CF350059B815 /* libz.1.2.3.dylib */,
-				B576D4C611C7CC9F0059B815 /* MobileCoreServices.framework */,
-				B50C182B121C26FA0055FCAB /* Security.framework */,
-				B576D4C911C7CCA60059B815 /* SystemConfiguration.framework */,
-				B576D4C311C7CC9C0059B815 /* UIKit.framework */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -304,6 +295,15 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B54043751151538A00D8BE63 /* libGHUnitIPhone3_0.a */,
+				B576D4C011C7CC970059B815 /* CFNetwork.framework */,
+				B576D4D011C7CCBC0059B815 /* CoreGraphics.framework */,
+				B576D51311C7CE6D0059B815 /* Foundation.framework */,
+				B576D53D11C7CF350059B815 /* libz.1.2.3.dylib */,
+				B576D4C611C7CC9F0059B815 /* MobileCoreServices.framework */,
+				B50C182B121C26FA0055FCAB /* Security.framework */,
+				B576D4C911C7CCA60059B815 /* SystemConfiguration.framework */,
+				B576D4C311C7CC9C0059B815 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
